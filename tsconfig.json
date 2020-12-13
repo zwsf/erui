@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "es6",
+		"lib": ["dom", "esnext"],
+		"outDir": "lib",
+		"declaration": true,
+		"moduleResolution": "node",
+		"jsx": "preserve",
+		"types": ["jest"],
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true
+	},
+	"include": ["example", "packages", "typings"],
+	"exclude": ["node_modules"]
+}

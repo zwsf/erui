@@ -1,0 +1,26 @@
+# 定义 stages
+stages:
+    - install
+    - lint
+    - test
+    - build
+    - deploy
+
+lint:
+    stage: lint
+    only:
+        - test
+        - master
+        - main
+    script:
+        - npm run lint-fix
+
+# 定义测试
+test:
+    stage: test
+    only:
+        - test
+        - master
+    script:
+        - npm run test
+# ...
