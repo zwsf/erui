@@ -1,6 +1,6 @@
 {
 	"name": "erui",
-	"version": "0.2.2",
+	"version": "0.2.3",
 	"description": "> TODO: description",
 	"main": "dist/index.js",
 	"homepage": "https://github.com/zwsf/erui#readme",

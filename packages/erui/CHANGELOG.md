@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/zwsf/erui/compare/erui@0.2.2...erui@0.2.3) (2020-12-14)
+
+
+### Bug Fixes
+
+* **erui:** 调整配置 ([607397b](https://github.com/zwsf/erui/commit/607397b0d7519ee62ce27c26cda0616d180276ac))
+
+
+
+
+
 ## [0.2.2](https://github.com/zwsf/erui/compare/erui@0.2.1...erui@0.2.2) (2020-12-14)
 
 
