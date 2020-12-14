@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/zwsf/erui/compare/erui@0.2.1...erui@0.2.2) (2020-12-14)
+
+
+### Bug Fixes
+
+* **erui:** 修复软件发布目录 ([cb5911a](https://github.com/zwsf/erui/commit/cb5911a64cf5805b56ed06fac8ff925eca9d7762))
+
+
+
+
+
 ## [0.2.1](https://github.com/zwsf/erui/compare/erui@0.2.0...erui@0.2.1) (2020-12-14)
 
 
