@@ -3,7 +3,8 @@
 	"version": "0.0.0",
 	"private": true,
 	"description": "",
-	"main": "index.js",
+	"main": "lib/index.js",
+	"module": "lib/index.esm.js",
 	"scripts": {
 		"clean:lib": "rimraf lib",
 		"build:esm": "node ./build/build.comp.esm.js",
@@ -97,5 +98,9 @@
 	},
 	"lint-staged": {
 		"*.{js,ts,vue}": "eslint --fix"
-	}
+	},
+	"files": [
+		"lib",
+		"packages"
+	]
 }
