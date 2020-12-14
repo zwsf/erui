@@ -1,6 +1,6 @@
 {
 	"name": "@erui/theme-chalk",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "> TODO: description",
 	"main": "index.js",
 	"publishConfig": {
@@ -19,5 +19,5 @@
 	"bugs": {
 		"url": "https://github.com/zwsf/erui/issues"
 	},
-	"gitHead": "cf89eda8da1a7d699efeda2deb3cec678560c413"
+	"gitHead": "0130d761c5b4f6b2ff45f009b38401f6447d88d7"
 }

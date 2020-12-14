@@ -1,6 +1,6 @@
 {
 	"name": "erui",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "> TODO: description",
 	"main": "dist/index.js",
 	"homepage": "https://github.com/zwsf/erui#readme",
@@ -10,13 +10,13 @@
 	},
 	"keywords": [],
 	"dependencies": {
-		"@erui/button": "0.0.1",
-		"@erui/input": "0.0.1"
+		"@erui/button": "0.0.2",
+		"@erui/input": "0.0.2"
 	},
 	"author": "zuiwosuifeng <zuiwosuifeng@gmail.com>",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/zwsf/erui/issues"
 	},
-	"gitHead": "e3cdd14efa97901b0559067933e06102b1129cb1"
+	"gitHead": "0130d761c5b4f6b2ff45f009b38401f6447d88d7"
 }
