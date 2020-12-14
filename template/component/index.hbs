@@ -1,0 +1,8 @@
+import { App } from 'vue'
+import {{componentName}} from './src/index.vue'
+
+{{componentName}}.install = (app: App): void => {
+  app.component({{componentName}}.name, {{componentName}})
+}
+
+export default {{componentName}}
