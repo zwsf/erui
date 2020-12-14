@@ -20,6 +20,10 @@ module.exports = {
 				use: ['style-loader', 'css-loader', 'stylus-loader'],
 			},
 			{
+				test: /\.css/,
+				use: ['style-loader', 'css-loader'],
+			},
+			{
 				test: /\.(ts|js)x?$/,
 				include: [/example/, /packages/],
 				exclude: /node_modules/,

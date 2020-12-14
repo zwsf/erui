@@ -1,14 +1,22 @@
 <template>
-  <div></div>
+	<input class="er-input" :type="type" :placeholder="placeholder" />
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from 'vue'
 export default defineComponent({
-	name: 'Input',
+	name: 'ErInput',
 	props: {
+		type: {
+			type: String,
+			default: 'text',
+		},
+		placeholder: {
+			type: String,
+			default: '请输入',
+		},
 	},
-  setup() {
+	setup() {
 		// 初始化
 	},
 })

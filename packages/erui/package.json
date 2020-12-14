@@ -7,6 +7,11 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
+	"dependencies": {
+		"@erui/input": "0.0.0",
+		"@erui/button": "0.0.0"
+	},
 	"author": "",
-	"license": "MIT"
+	"license": "MIT",
+	"gitHead": "e3cdd14efa97901b0559067933e06102b1129cb1"
 }

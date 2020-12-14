@@ -1,14 +1,14 @@
 <template>
-  <div></div>
+	<div class="er-button">测试button</div>
 </template>
 
-<script>
+<script lang="ts">
+// TODO 使用children属性
 import { defineComponent } from 'vue'
 export default defineComponent({
-	name: 'Button',
-	props: {
-	},
-  setup() {
+	name: 'ErButton',
+	props: {},
+	setup() {
 		// 初始化
 	},
 })

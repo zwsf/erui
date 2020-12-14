@@ -3,11 +3,13 @@ import { nodeResolve } from '@rollup/plugin-node-resolve'
 import typescript from 'rollup-plugin-typescript2'
 import { terser } from 'rollup-plugin-terser'
 import vuePlugin from 'rollup-plugin-vue'
-import css from 'rollup-plugin-css-only'
 import json from '@rollup/plugin-json'
+import pkg from '../package.json'
+
+const deps = Object.keys(pkg.dependencies)
 
 export default {
-	input: 'packages/elui/index.ts',
+	input: 'packages/erui/index.ts',
 	output: {
 		file: `lib/index.esm.js`,
 		format: 'es',
@@ -34,10 +36,10 @@ export default {
 			css: false,
 			exposeFilename: false,
 		}),
-		css({
-			output: './dist/bundle.css',
-		}),
 		terser(),
 	],
-	external: ['vue'],
+	// 若发现有外部依赖包，则进行匹配，使用外界依赖，不打进bundle中
+	external(id) {
+		return /^vue/.test(id) || deps.some(k => new RegExp('^' + k).test(id))
+	},
 }
