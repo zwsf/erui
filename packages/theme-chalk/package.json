@@ -1,13 +1,23 @@
 {
 	"name": "@erui/theme-chalk",
-	"version": "0.2.0",
-	"description": "",
+	"version": "0.1.0",
+	"description": "> TODO: description",
 	"main": "index.js",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zwsf/erui.git"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
 	"author": "zuiwosuifeng <zuiwosuifeng@gmail.com>",
 	"license": "MIT",
-	"gitHead": "e3cdd14efa97901b0559067933e06102b1129cb1"
+	"bugs": {
+		"url": "https://github.com/zwsf/erui/issues"
+	},
+	"gitHead": "cf89eda8da1a7d699efeda2deb3cec678560c413"
 }
