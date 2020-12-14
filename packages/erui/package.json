@@ -8,8 +8,8 @@
 	},
 	"keywords": [],
 	"dependencies": {
-		"@erui/button": "0.0.0",
-		"@erui/input": "0.0.0"
+		"@erui/button": "^0.0.0",
+		"@erui/input": "^0.0.0"
 	},
 	"author": "",
 	"license": "MIT",
