@@ -1,6 +1,6 @@
 {
 	"name": "erui",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "> TODO: description",
 	"main": "dist/index.js",
 	"homepage": "https://github.com/zwsf/erui#readme",
@@ -10,8 +10,8 @@
 	},
 	"keywords": [],
 	"dependencies": {
-		"@erui/button": "^0.0.0",
-		"@erui/input": "^0.0.0"
+		"@erui/button": "0.0.1",
+		"@erui/input": "0.0.1"
 	},
 	"author": "zuiwosuifeng <zuiwosuifeng@gmail.com>",
 	"license": "MIT",
