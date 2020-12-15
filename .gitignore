@@ -17,6 +17,7 @@ pnpm-debug.log*
 lerna-error.log*
 lerna-debug.log*
 lerna-debug.json*
+yarn.lock
 
 # Editor directories and files
 .idea

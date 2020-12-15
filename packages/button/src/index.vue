@@ -1,5 +1,7 @@
 <template>
-	<div class="er-button">测试button</div>
+  <div class="er-button">
+    测试button
+  </div>
 </template>
 
 <script lang="ts">

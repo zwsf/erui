@@ -1,15 +1,10 @@
 {
 	"name": "@erui/input",
-	"version": "0.0.2",
+	"version": "0.0.0",
 	"description": "> TODO: description",
-	"homepage": "https://github.com/zwsf/erui#readme",
 	"main": "dist/index.js",
 	"publishConfig": {
 		"access": "public"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/zwsf/erui.git"
 	},
 	"peerDependencies": {
 		"vue": "^3.0.4"
@@ -19,9 +14,5 @@
 	},
 	"keywords": [],
 	"author": "zuiwosuifeng <zuiwosuifeng@gmail.com>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/zwsf/erui/issues"
-	},
-	"gitHead": "0130d761c5b4f6b2ff45f009b38401f6447d88d7"
+	"license": "MIT"
 }

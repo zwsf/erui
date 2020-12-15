@@ -10,8 +10,8 @@
 	},
 	"keywords": [],
 	"dependencies": {
-		"@erui/button": "0.0.2",
-		"@erui/input": "0.0.2"
+		"@erui/button": "^0.0.0",
+		"@erui/input": "^0.0.0"
 	},
 	"author": "zuiwosuifeng <zuiwosuifeng@gmail.com>",
 	"license": "MIT",

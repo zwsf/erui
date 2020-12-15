@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const rollup = require('rollup')
 const { nodeResolve } = require('@rollup/plugin-node-resolve')
 const typescript = require('rollup-plugin-typescript2')
@@ -9,9 +10,12 @@ const { getPackagesSync } = require('@lerna/project')
 const packageConfig = require('../package.json')
 const ora = require('ora')
 const chalk = require('chalk')
+const { noErPrefixFile } = require('./common')
 
-const deps = Object.keys(packageConfig.dependencies)
-const pkgs = getPackagesSync().filter(it => !/theme/gi.test(it.name))
+const deps = Object.keys(packageConfig.dependencies || {})
+const pkgs = getPackagesSync().filter(
+	it => !noErPrefixFile.test(it.name) && !/^erui/.test(it.name),
+)
 
 async function build() {
 	const spinner = ora(`${chalk.blue('Building...')}`).start()
@@ -57,6 +61,13 @@ async function build() {
 			file: `lib/er-${pkgName}/index.js`,
 			format: 'esm',
 			name: `er-${pkgName}`,
+			// paths(id) {
+			// 	if (/^@erui/.test(id)) {
+			// 		if (noErPrefixFile.test(id))
+			// 			return id.replace('@erui', '..')
+			// 		return id.replace('@erui/', '../er-')
+			// 	}
+			// },
 		}
 
 		spinner.info(`${chalk.blue('Building ' + pkgName)}`)

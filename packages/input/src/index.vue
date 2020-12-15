@@ -1,5 +1,9 @@
 <template>
-	<input class="er-input" :type="type" :placeholder="placeholder" />
+  <input
+    class="er-input"
+    :type="type"
+    :placeholder="placeholder"
+  >
 </template>
 
 <script lang="ts">

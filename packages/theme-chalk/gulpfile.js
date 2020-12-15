@@ -18,7 +18,7 @@ function compile() {
 				if (!noElPrefixFile.test(path.basename)) {
 					path.basename = `er-${path.basename}`
 				}
-			})
+			}),
 		)
 		.pipe(dest('./lib'))
 }

@@ -8,7 +8,8 @@
 	"scripts": {
 		"clean:lib": "rimraf lib",
 		"build:esm": "node ./build/build.comp.esm.js",
-		"build:esm-bundle": "rollup --config ./build/rollup.config.js",
+		"build:esm-bundle": "rollup --config ./build/rollup.config.js && yarn build:type",
+		"build:type": "node ./build/gen-type.js",
 		"build:theme": "rimraf packages/theme-chalk/lib && gulp build --gulpfile packages/theme-chalk/gulpfile.js && cp-cli packages/theme-chalk/lib lib/theme-chalk && rimraf packages/theme-chalk/lib",
 		"serve": "webpack-dev-server",
 		"test": "jest",
@@ -106,5 +107,8 @@
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/zwsf/erui.git"
+	},
+	"dependencies": {
+		"vue": "3.0.4"
 	}
 }

@@ -1,13 +1,16 @@
 {
 	"compilerOptions": {
-		"target": "esnext",
-		"module": "es6",
+		"module": "ESNext",
+		"target": "es6",
 		"lib": ["dom", "esnext"],
-		"outDir": "lib",
+		"noImplicitAny": false,
+		"removeComments": true,
 		"declaration": true,
 		"moduleResolution": "node",
+		"esModuleInterop": true,
 		"jsx": "preserve",
 		"types": ["jest"],
+		"sourceMap": true,
 		"allowSyntheticDefaultImports": true,
 		"resolveJsonModule": true
 	},
