@@ -1,6 +1,6 @@
 {
 	"name": "@erui/theme-chalk",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "> TODO: description",
 	"main": "index.js",
 	"publishConfig": {
