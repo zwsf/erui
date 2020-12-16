@@ -1,11 +1,8 @@
 {
-	"name": "@erui/theme-chalk",
-	"version": "0.0.6",
+	"name": "erui-theme-chalk",
+	"version": "0.0.0",
 	"description": "> TODO: description",
 	"main": "index.js",
-	"publishConfig": {
-		"access": "public"
-	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/zwsf/erui.git"
