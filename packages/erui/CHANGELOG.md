@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.7](https://github.com/zwsf/erui/compare/erui@0.0.6...erui@0.0.7) (2020-12-16)
+
+**Note:** Version bump only for package erui
+
+
+
+
+
 ## [0.0.6](https://github.com/zwsf/erui/compare/erui@0.0.5...erui@0.0.6) (2020-12-15)
 
 
